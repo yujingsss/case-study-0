@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/image/memory-cover.jpg");
+    background-size: cover;
+}
+header > h1 {
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+main {
+    margin: 3em 3em 10em 3em;
+}
+main > div {
+    max-width: 800px;
+}
+li {
+    list-style: none;
+    font-weight: 300;
+}
+p {
+    font-weight: 300;
+}
+.images > img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0 1em 0;
+}
+#video {
+    width: 100%;
+    height: 60vh; 
+    margin: 1em 0 1em 0;
+}
+#detail-img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#detail-img > img {
+    width: 25%;
+    height: auto;
+    padding: 0.75em;
+}
+.zoom-in:hover {
+    cursor: zoom-in;
+}
+.large-img {
+    /* background-color: rgba(0,0,0,0.8); */
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    display:flex;
+    align-items: flex-start;
+}
+.large-img > img {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+}
+#back {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0.5em;
+}
+#back:hover{
+    cursor: zoom-out;
+}
+.process-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.process-img > img {
+    width: 35%;
+    padding: 0.5em;
+}

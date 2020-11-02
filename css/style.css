@@ -19,7 +19,8 @@ body {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url("/image/memory-cover.jpg");
+    /* background-image: url("/image/memory-cover.jpg"); */
+    background-image: url("https://cdn.glitch.com/88f8bc80-c500-4096-b4b2-71e3eb10ee60%2Fmemory%20cover.jpg?v=1604332090131");
     background-size: cover;
 }
 header > h1 {
